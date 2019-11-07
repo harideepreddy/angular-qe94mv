@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
+
 @Component({
   selector: 'my-employee',
-  templateUrl: ''
+  templateUrl: './employee.component.html'
 })
 export class EmployeeComponent {
   firstname:string = "harideep";
